@@ -1,0 +1,48 @@
+html {
+    font-size: 25px;
+}
+
+body {
+    font-family: "Caveat", cursive;
+    margin: 0;
+    background: rgb(80, 0, 80); 
+}
+
+header {
+    padding: 20px;
+    background: white;
+}
+
+header .logo, .menu, .menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
